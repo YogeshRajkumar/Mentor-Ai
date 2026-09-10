@@ -19,3 +19,5 @@ export const authMiddleware = (req, res, next) => {
     return res.status(401).json({ success: false, message: "Token is not valid" });
   }
 };
+
+//DEMO
