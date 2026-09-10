@@ -159,7 +159,7 @@ function App() {
       const data = await res.json();
 
       if (data.success) {
-        await fetchTasks(); // IMPORTANT
+        await fetchTasks();
       }
     } catch (err) {
       console.error(err);
